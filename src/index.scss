@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+@import "./assets/styles/utility";
+
+body {
+  background-color: #f1f3fe;
+  color: $text-primary;
+  font-family: "Poppins", sans-serif;
+}
+
+.react-calendar {
+  width: 100%;
+  border: none;
+}
+
+.bg-brand {
+  background-image: linear-gradient($color-left, $color-right);
+}
+
+.wrapper {
+  position: relative;
+}
+
+.back-icon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
